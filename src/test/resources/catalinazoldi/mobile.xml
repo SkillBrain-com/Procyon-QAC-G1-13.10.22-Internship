@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Desktop" verbose="1" >
+    <test name="Test desktop" >
+        <groups>
+            <run>
+                <exclude name="desktop"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="catalinazoldi.tests.Tema8.tests.BasicAjaxTest"/>
+            <class name="catalinazoldi.tests.Tema8.tests.DynamicButtonsDisabledTest"/>
+            <class name="catalinazoldi.tests.Tema8.tests.DynamicButtonsSimpleTest"/>
+            <class name="catalinazoldi.tests.Tema8.tests.RedirectTest"/>
+            <class name="catalinazoldi.tests.Tema8.tests.RefreshTest"/>
+        </classes>
+    </test>
+</suite>

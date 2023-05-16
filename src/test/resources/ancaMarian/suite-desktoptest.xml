@@ -1,0 +1,16 @@
+<suite name="Desktop Test Suite">
+    <test name="Desktop Test">
+        <groups>
+            <run>
+                <include name="desktop"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="ancaMarian.tests.tema8.tests.BasicAjaxPageTest"/>
+            <class name="ancaMarian.tests.tema8.tests.RefreshPageTest"/>
+            <class name="ancaMarian.tests.tema8.tests.JavaScriptRedirectPageTest"/>
+            <class name="ancaMarian.tests.tema8.tests.DynamicButtonsSimpleTest"/>
+            <class name="ancaMarian.tests.tema8.tests.DisabledDynamicButtonsPageTest"/>
+        </classes>
+    </test>
+</suite>

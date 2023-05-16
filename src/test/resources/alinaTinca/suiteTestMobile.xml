@@ -1,0 +1,16 @@
+<suite name="Homework8-Mobile Test Suite" verbose="1" >
+    <test name="Mobile Test" >
+        <groups>
+            <run>
+                <include name="mobile" />
+            </run>
+        </groups>
+        <classes>
+            <class name="alinatinca.tests.Tema9.Tema8.tests.BasicAjaxExamplePageTests" />
+            <class name="alinatinca.tests.Tema9.Tema8.tests.JavaScriptRedirectsPageTests"/>
+            <class name="alinatinca.tests.Tema9.Tema8.tests.RefreshPageTest"/>
+            <class name="alinatinca.tests.Tema9.Tema8.tests.SimpleDynamicButtonsPageTest"/>
+            <class name="alinatinca.tests.Tema9.Tema8.tests.DisabledDynamicButtonsPageTest"/>
+        </classes>
+    </test>
+</suite>

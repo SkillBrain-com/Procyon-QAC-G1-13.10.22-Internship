@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="GroupsTestNGHomework7" verbose="1" >
+
+    <test name="CuraHealthPageTests">
+        <groups>
+            <run>
+                <include name="login"  />
+                <exclude name="redirect"  />
+                <include name="app"  />
+                <exclude name="homePage"  />
+            </run>
+        </groups>
+        <classes>
+            <class name="alinatinca.tests.Tema9.Tema7.CuraHealthcareLoginTests"/>
+            <class name="alinatinca.tests.Tema9.Tema7.MakeAppoitmentScenariosTests"/>
+            <class name="alinatinca.tests.Tema9.Tema7.BackToHomePageTests"/>
+        </classes>
+    </test>
+</suite>

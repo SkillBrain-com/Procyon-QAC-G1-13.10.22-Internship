@@ -1,0 +1,12 @@
+<suite name="Desktop Test Suite">
+    <test name="Desktop Test">
+        <groups>
+            <run>
+                <include name="desktop"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="cosminsechel.tests.tema8.testpage.TestPages"/>
+        </classes>
+    </test>
+</suite>

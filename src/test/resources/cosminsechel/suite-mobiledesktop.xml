@@ -1,0 +1,13 @@
+<suite name="Mobile Test Suite">
+    <test name="Mobile Test">
+        <groups>
+            <run>
+                <include name="mobile"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="cosminsechel.tests.tema8.testpage.TestPages">
+            </class>
+        </classes>
+    </test>
+</suite>

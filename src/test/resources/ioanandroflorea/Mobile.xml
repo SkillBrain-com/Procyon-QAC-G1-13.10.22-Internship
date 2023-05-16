@@ -1,0 +1,16 @@
+<suite name="Mobile Test Suite">
+    <test name="Mobile Test">
+        <groups>
+            <run>
+                <include name="mobile"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="ioanandroflorea.tests.Tema8.teste.BasicAjaxTests"/>
+            <class name="ioanandroflorea.tests.Tema8.teste.RefreshTests"/>
+            <class name="ioanandroflorea.tests.Tema8.teste.RedirectTests"/>
+            <class name="ioanandroflorea.tests.Tema8.teste.SimpleDynamicButtonsTests"/>
+            <class name="ioanandroflorea.tests.Tema8.teste.DisabledDynamicButtonsTests"/>
+        </classes>
+    </test>
+</suite>

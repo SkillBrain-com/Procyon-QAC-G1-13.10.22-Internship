@@ -1,0 +1,16 @@
+<suite name="Tema8 - Desktop Test Suite" verbose="1" >
+    <test name="Desktop Test" >
+        <groups>
+            <run>
+                <include name="desktop" />
+            </run>
+        </groups>
+        <classes>
+            <class name="madalinapopescu.tests.tema8.teste.BasicAjaxTests" />
+            <class name="madalinapopescu.tests.tema8.teste.DisabledDynamicButtonPageTest"/>
+            <class name="madalinapopescu.tests.tema8.teste.RedirectPageTest"/>
+            <class name="madalinapopescu.tests.tema8.teste.RedirectPageTest"/>
+            <class name="madalinapopescu.tests.tema8.teste.RedirectPageTest"/>
+        </classes>
+    </test>
+</suite>

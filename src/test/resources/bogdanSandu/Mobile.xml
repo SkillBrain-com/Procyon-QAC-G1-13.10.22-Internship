@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Desktop" verbose="1" >
+    <test name="Test desktop" >
+        <groups>
+            <run>
+                <exclude name="Desktop"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="bogdanSandu.tests.tema8.tests.BasicAjaxPageTest"/>
+            <class name="bogdanSandu.tests.tema8.tests.RedirectTest"/>
+            <class name="bogdanSandu.tests.tema8.tests.RefreshTest"/>
+            <class name="bogdanSandu.tests.tema8.tests.DynamicButtonsSimplePageTest"/>
+            <class name="bogdanSandu.tests.tema8.tests.DynamicButtonsDisabledPageTest"/>
+        </classes>
+    </test>
+</suite>

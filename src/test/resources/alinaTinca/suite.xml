@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="SuitaTestNGHomework7" verbose="1" >
+    <test name="CuraHealthcarePageTests" >
+        <classes>
+            <class name="alinatinca.tests.Tema9.Tema7.CuraHealthcareLoginTests" />
+            <class name="alinatinca.tests.Tema9.Tema7.MakeAppoitmentScenariosTests"/>
+            <class name="alinatinca.tests.Tema9.Tema7.BackToHomePageTests"/>
+        </classes>
+    </test>
+</suite>

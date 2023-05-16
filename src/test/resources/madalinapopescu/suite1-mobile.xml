@@ -1,0 +1,16 @@
+<suite name="Tema8 - Mobile Test Suite" verbose="1" >
+    <test name="Mobile Test" >
+        <groups>
+            <run>
+                <include name="mobile" />
+            </run>
+        </groups>
+        <classes>
+            <class name="madalinapopescu.tests.tema8.teste.BasicAjaxTests" />
+            <class name="madalinapopescu.tests.tema8.teste.DisabledDynamicButtonPageTest"/>
+            <class name="madalinapopescu.tests.tema8.teste.RedirectPageTest"/>
+            <class name="madalinapopescu.tests.tema8.teste.RedirectPageTest"/>
+            <class name="madalinapopescu.tests.tema8.teste.RedirectPageTest"/>
+        </classes>
+    </test>
+</suite>

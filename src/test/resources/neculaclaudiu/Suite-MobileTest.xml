@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="SuitaMobileTest" verbose="1" >
+    <test name="TestForMobile" >
+     <groups>
+            <run>
+            <include name="Mobile"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="neculaclaudiu.tests.seleniumpart3.tests.AllTests" />
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Desktop" verbose="1" >
+    <test name="desktop testing" >
+        <groups>
+            <run>
+                <include name="desktop"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="andreeaG.tests.tema8.pageTests.DisabledDynamicButtonsTest"/>
+            <class name="andreeaG.tests.tema8.pageTests.BasicAjaxPageTests"/>
+            <class name="andreeaG.tests.tema8.pageTests.JavascriptRedirectButtonsTest"/>
+            <class name="andreeaG.tests.tema8.pageTests.RefreshPageTest"/>
+            <class name="andreeaG.tests.tema8.pageTests.SimpleDynamicButtonsTest"/>
+
+        </classes>
+    </test>
+</suite>
